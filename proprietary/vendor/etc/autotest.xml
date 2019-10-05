@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<testitem item_name="TEST_DEVICEINFO" item_action="Softversion" />
+	<testitem item_name="TEST_SIMCARD" item_action="MultipleSimStatusCheck" />
+	<testitem item_name="TEST_LCD" item_action="LCD" />
+	<testitem item_name="TEST_TOUCHAUTO" item_action="TpSelftest_F6" />
+	<testitem item_name="TEST_GPS" item_action="Gps" />
+	<testitem item_name="TEST_WLANMAC" item_action="WifiAddress" />
+	<testitem item_name="TEST_WIFI" item_action="Wifi" />
+	<testitem item_name="TEST_BTMAC" item_action="BtAddress" />
+	<testitem item_name="TEST_BT" item_action="Bluetooth" />
+	<testitem item_name="TEST_LIGHTSENSOR" item_action="LightSensor"/>
+	<testitem item_name="TEST_PROXIMITYSENSOR" item_action="Proximity"/>
+	<testitem item_name="TEST_VIBRATION" item_action="Motor"/>
+	<testitem item_name="TEST_KEY" item_action="Keyboard"/>
+	<testitem item_name="TEST_TOUCHPANEL" item_action="Touchpanel_v2" />
+	<testitem item_name="TEST_LED" item_action="LED" />
+	<testitem item_name="TEST_REARCAMERA" item_action="BackTestCameraFocus" />
+	<testitem item_name="TEST_FRONTCAMERA" item_action="FrontTestCamera" />
+	<testitem item_name="TEST_MIC" item_action="Mic1Loopback" />
+	<testitem item_name="TEST_PHONECALL" item_action="CallLoop" />
+	<testitem item_name="TEST_MIC2" item_action="Mic2Loopback" />
+	<testitem item_name="TEST_ACCELEROMETER" item_action="Acce" />
+	<testitem item_name="TEST_MAGNETISM" item_action="Magnetism_v2" />
+	<testitem item_name="TEST_GYRO" item_action="Gyroscope" />
+	<testitem item_name="TEST_HEADSET" item_action="HeadSetIn" />
+	<testitem item_name="TEST_HEADSETBUTTON" item_action="HeadSetKey" />
+	<testitem item_name="TEST_HEADSETMIC" item_action="HeadSetLoop" />
+	<testitem item_name="TEST_CHARGER" item_action="ChargerIn" />
+	<testitem item_name="TEST_TFCARD" item_action="CitTCard" />
+	<testitem item_name="TEST_ACCELEROMETER" item_action="Acce" />
+	<!--<testitem item_name="TEST_LOUDSPEAKERPACALIBRATION" item_action="SmartPA"/>-->
+	<testitem item_name="TEST_REARSUBCAMERA" item_action="Rearsubcamera" />
+	<testitem item_name="TEST_FINGERPRINT" item_action="finger" />
+	<testitem item_name="DIAG_STABILITY" item_action="DiagStability" />
+</resources>

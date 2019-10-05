@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!--<testitem item_name="ddr_test" item_action="DDrTest" />-->
+	<testitem item_name="softversion" item_action="Softversion" />
+	<testitem item_name="sim_status_test" item_action="MultipleSimStatusCheck" />
+	<testitem item_name="SDCard" item_action="TCardL8650" />
+	<testitem item_name="keyboard" item_action="Keyboard" />
+	<testitem item_name="motor_title" item_action="MotorRandom" />
+	<testitem item_name="led_test" item_action="LedRandomNew" />
+	<testitem item_name="tp_selftest" item_action="TpSelftest_F6" />
+	<testitem item_name="touchpanel_test" item_action="Touchpanel_v2" />
+	<testitem item_name="lcd_test" item_action="LcdMoreColor" />
+	<testitem item_name="receive_test" item_action="AutoReceive" />
+	<testitem item_name="play_music_for_receiver" item_action="PlayMusicForAudio" />
+	<testitem item_name="play_music" item_action="AutoSpeaker" />
+	<testitem item_name="play_music_for_speaker" item_action="PlayMusicForAudioSpeaker" />
+	<testitem item_name="headset_key_test" item_action="HeadSetKey" />
+	<testitem item_name="mic1_spk_loop" item_action="Mic1Loopback" />
+	<testitem item_name="mic2_spk_loop" item_action="Mic2Loopback" />
+	<testitem item_name="fm_test" item_action="Fm" />
+	<testitem item_name="gps_test" item_action="Gps" />
+	<testitem item_name="wifi_test" item_action="Wifi" />
+	<testitem item_name="wifi_addr_test" item_action="WifiAddress" />
+	<testitem item_name="bluetooth" item_action="Bluetooth" />
+	<testitem item_name="bt_addr_test" item_action="BtAddress" />
+	<testitem item_name="gyroscope" item_action="Gyroscope"/>
+	<testitem item_name="accelerator_test" item_action="Acce_45_calibration"/>
+	<testitem item_name="magnetic_test" item_action="Magnetism_v2"/>
+	<testitem item_name="proximity_sensor_test" item_action="Proximity_old_no_cal"/>
+	<testitem item_name="light_sensor_test" item_action="LightSensor_old"/>
+	<testitem item_name="otg_in_test" item_action="CitOtgIn" />
+	<testitem item_name="charger_in_test" item_action="ChargeInAndOutActivity" />
+	<testitem item_name="back_camera0" item_action="BackCamera" />
+	<testitem item_name="back_camera1" item_action="BackCamera1" />
+	<testitem item_name="front_camera" item_action="FrontCamera" />
+	<testitem item_name="back_camera2" item_action="BackCamera2" />
+	<testitem item_name="finger" item_action="SensorTestToolActivity" />
+	<testitem item_name="battery_vol_test" item_action="Battery" />
+</resources>
