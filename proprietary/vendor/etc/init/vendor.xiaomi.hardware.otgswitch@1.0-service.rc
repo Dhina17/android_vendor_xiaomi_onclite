@@ -1,5 +1,0 @@
-service otgswitch-hal-1-0 /system/vendor/bin/hw/vendor.xiaomi.hardware.otgswitch@1.0-service
-    class hal
-    user system
-    group system
-
