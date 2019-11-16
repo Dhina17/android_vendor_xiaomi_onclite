@@ -108,6 +108,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onclite/proprietary/lib64/lib-imsvtutils.so:system/lib64/lib-imsvtutils.so \
     vendor/xiaomi/onclite/proprietary/lib64/libFileMux.so:system/lib64/libFileMux.so \
     vendor/xiaomi/onclite/proprietary/lib64/libOmxMux.so:system/lib64/libOmxMux.so \
+    vendor/xiaomi/onclite/proprietary/lib64/libaptXHD_encoder.so:system/lib64/libaptXHD_encoder.so \
     vendor/xiaomi/onclite/proprietary/lib64/libaptX_encoder.so:system/lib64/libaptX_encoder.so \
     vendor/xiaomi/onclite/proprietary/lib64/libdiag_system.so:system/lib64/libdiag_system.so \
     vendor/xiaomi/onclite/proprietary/lib64/libdpmctmgr.so:system/lib64/libdpmctmgr.so \
