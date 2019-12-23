@@ -7,7 +7,7 @@
 BEGIN TRANSACTION;
 
 CREATE TABLE IF NOT EXISTS qcril_properties_table (property TEXT,value TEXT, PRIMARY KEY(property));
-INSERT OR REPLACE INTO qcril_properties_table (property, value) VALUES ('qcrildb_version', 1);
+INSERT OR REPLACE INTO qcril_properties_table (property, value) VALUES ('qcrildb_version', 6);
 
 DELETE FROM qcril_emergency_source_mcc_table where MCC = '234' AND NUMBER = '999';
 INSERT INTO qcril_emergency_source_mcc_table VALUES('234','999','','');
@@ -93,5 +93,39 @@ INSERT INTO qcril_emergency_source_escv_nw_table VALUES('466','05','112',4);
 DELETE FROM qcril_emergency_source_escv_nw_table WHERE MCC = '466' AND MNC = '05' AND NUMBER = '119';
 INSERT INTO qcril_emergency_source_escv_nw_table VALUES('466','05','119',2);
 
+DELETE FROM qcril_emergency_source_mcc_table WHERE MCC = '466' AND NUMBER = '112';
+INSERT INTO qcril_emergency_source_mcc_table VALUES('466','112','','');
 
+DELETE FROM qcril_emergency_source_voice_table WHERE MCC = '466' AND NUMBER = '112';
+INSERT INTO qcril_emergency_source_voice_table VALUES('466','112','','full');
+
+DELETE FROM qcril_emergency_source_hard_mcc_table WHERE MCC = '466' AND NUMBER = '112';
+INSERT INTO qcril_emergency_source_hard_mcc_table VALUES('466','112','','');
+
+DELETE FROM qcril_emergency_source_hard_mcc_table WHERE MCC = '429' AND NUMBER = '100';
+DELETE FROM qcril_emergency_source_hard_mcc_table WHERE MCC = '429' AND NUMBER = '101';
+
+DELETE FROM qcril_emergency_source_mcc_table WHERE MCC = '429' AND NUMBER = '100';
+DELETE FROM qcril_emergency_source_mcc_table WHERE MCC = '429' AND NUMBER = '101';
+
+DELETE FROM qcril_emergency_source_escv_nw_table WHERE MCC = '202' AND NUMBER = '112';
+INSERT INTO qcril_emergency_source_escv_nw_table VALUES('202','','112',0);
+
+DELETE FROM qcril_emergency_source_escv_nw_table WHERE MCC = '202' AND NUMBER = '100';
+INSERT INTO qcril_emergency_source_escv_nw_table VALUES('202','','100',1);
+
+DELETE FROM qcril_emergency_source_escv_nw_table WHERE MCC = '202' AND NUMBER = '199';
+INSERT INTO qcril_emergency_source_escv_nw_table VALUES('202','','199',4);
+
+DELETE FROM qcril_emergency_source_escv_nw_table WHERE MCC = '202' AND NUMBER = '166';
+INSERT INTO qcril_emergency_source_escv_nw_table VALUES('202','','166',2);
+
+DELETE FROM qcril_emergency_source_voice_table WHERE MCC = '202' AND NUMBER = '100';
+INSERT INTO qcril_emergency_source_voice_table VALUES('202','100','','full');
+
+DELETE FROM qcril_emergency_source_voice_table WHERE MCC = '202' AND NUMBER = '166';
+INSERT INTO qcril_emergency_source_voice_table VALUES('202','166','','full');
+
+DELETE FROM qcril_emergency_source_voice_table WHERE MCC = '202' AND NUMBER = '199';
+INSERT INTO qcril_emergency_source_voice_table VALUES('202','199','','full');
 COMMIT TRANSACTION;
